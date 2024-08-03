@@ -1,0 +1,71 @@
+/* Contact Page Styling */
+body {
+    background-image: url("img/cryptoImg/eth.jpg"); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background image fixed during scroll */
+}
+
+.container.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #240124;
+    border-radius: 0.5rem;
+    color: #ffffff;
+}
+
+.container.my-5 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+}
+
+.container.my-5 h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.container.my-5 .form-group label {
+    color: #ffffff;
+}
+
+.container.my-5 .form-control {
+    border-radius: 0.25rem;
+}
+
+.container.my-5 .form-control::placeholder {
+    color: #dddddd;
+}
+
+.container.my-5 .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 0.25rem;
+}
+
+.container.my-5 .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.container.my-5 .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 0.25rem;
+}
+
+.container.my-5 .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+iframe {
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-container {
+    margin-top: 1rem; /* Space between buttons and form */
+}

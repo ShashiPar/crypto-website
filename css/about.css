@@ -1,0 +1,110 @@
+/* CSS for About Section */
+
+.container.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #240124;
+    border-radius: 0.5rem;
+    color: #ffffff; /* Ensure text is readable on dark background */
+}
+
+.container.my-5 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ffffff; /* White text for better contrast */
+}
+
+.container.my-5 p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #dddddd; /* Light gray text for better readability */
+    text-align: justify;
+}
+
+.container.my-5 .text-center {
+    text-align: center !important;
+}
+
+/* Sticky Footer */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #cccccc;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+footer .list-inline-item {
+    margin-right: 10px;
+}
+
+/* CSS for About Section */
+.container.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #240124;
+    border-radius: 0.5rem;
+    color: #ffffff;
+}
+
+.container.my-5 h1, .container.my-5 h2, .container.my-5 h3 {
+    color: #ffffff;
+}
+
+.container.my-5 p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #dddddd;
+    text-align: justify;
+}
+
+.container.my-5 .text-center {
+    text-align: center !important;
+}
+
+.row {
+    margin-top: 2rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.service-img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* This ensures the image covers the area without distortion */
+    border-radius: 0.5rem; /* Optional: to give the images rounded corners */
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

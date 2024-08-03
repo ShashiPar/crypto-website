@@ -1,0 +1,82 @@
+/* Navbar Styles */
+.navbar-dark {
+    background-color: #2f4f7f; /* Dark blue background */
+  }
+  
+  .nav-link {
+    color: #fff; /* White text color */
+    transition: color 0.2s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  .nav-link:hover {
+    color: #ccc; /* Light gray text color on hover */
+  }
+  
+  .nav-link:active {
+    color: #fff; /* White text color on active */
+  }
+  
+  /* Hero Section Styles */
+  .hero-container {
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-text {
+    text-align: center;
+    color: #fff; /* White text color */
+  }
+  
+  .hero-text h1 {
+    font-weight: bold;
+    font-size: 60px; /* Large font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for readability */
+  }
+  
+  .hero-text span {
+    color: #ff69b4; /* Pink color */
+    font-style: italic;
+  }
+  
+  .hero-text p {
+    font-size: 24px; /* Medium font size */
+    font-weight: 300; /* Light font weight */
+    margin-bottom: 40px; /* Space below paragraph */
+  }
+  
+  /* Body Styles */
+  body {
+    background-color: #240124; /* Dark purple background color */
+  }
+  
+  /* Carousel Styles */
+  .carousel-item img {
+    height: 500px; /* Fixed height for carousel images */
+    object-fit: cover; /* Maintain aspect ratio and cover */
+    width: 100%; /* Full width */
+  }
+  
+  /* About Section Styles */
+  .about {
+    padding: 50px 0; /* Padding top and bottom */
+    background-color: #240124; /* Dark purple background */
+  }
+  
+  .about h1 {
+    font-weight: bold;
+    font-size: 36px; /* Large font size */
+    margin-bottom: 20px; /* Space below heading */
+    color: #fff; /* White text color */
+  }
+  
+  .about p {
+    font-size: 18px; /* Medium font size */
+    margin-bottom: 40px; /* Space below paragraph */
+    color: #fff; /* White text color */
+  }
+  
