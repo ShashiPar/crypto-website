@@ -1,0 +1,84 @@
+/* login.css */
+
+/* Background color for the login section */
+.login-section {
+    background-color: #240123;
+    min-height: calc(100vh - 70px); /* Ensure footer stays at the bottom */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card styling */
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+/* Card body styling */
+.card-body {
+    padding: 30px;
+}
+
+/* Heading styling */
+.card-body h2 {
+    color: #240124;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Form input fields styling */
+.form-control {
+    background-color: #ffffff; /* Keep background white */
+    border: 1px solid #2f4f7f; /* Border color */
+    color: #2f4f7f; /* Text color should contrast with background */
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+.form-control::placeholder {
+    color: #240123;
+}
+
+/* Submit button styling */
+.btn-primary {
+    background-color: #240124;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #2f4f7f;
+    color: #ffffff;
+}
+
+/* Text center styling */
+.text-center {
+    color: gray;
+}
+
+/* Anchor tag styling */
+.text-center a {
+    color: gray;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.text-center a:hover {
+    color: #2f4f7f;
+}
+
+/* Footer styling */
+footer {
+    background-color: #240124;
+    color: #f1f1f1;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
